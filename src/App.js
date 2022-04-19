@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import Home from './Home.js';
 let informations = [
   {
     text: '**This text should be in bold',
@@ -19,8 +20,7 @@ const data = informations.map((item) => {
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Home />
       {data}
     </div>
   );
